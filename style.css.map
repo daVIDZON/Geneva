@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,KAAM;EACL,KAAK,ECJE,IAAI",
+"sources": ["style.scss","sass/_variables.scss"],
+"names": [],
+"file": "style.css"
+}
