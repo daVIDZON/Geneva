@@ -62,7 +62,7 @@ a {
     margin-left: 5px;
 }
 
-.officia1 {
+.mainofficial {
     margin: 0;
     color: #949393;
     margin: 1px 0 5px 2px;
@@ -71,20 +71,22 @@ a {
     display: inline-block;
 }
 
-.containermm {
+.maincontainer {
     margin: 3px 0 0 0;
 }
 
 .minimenu {
     background-color: #F4F0E7;
     margin: 0;
+    height:35px;
 }
 
-.watch {
+.mainwatch {
     margin: 0 137px;
+    margin-top:40px;
 }
 
-.watch1 {
+.watch{
     font-size: 30px;
     font-family:Open-sans;
     margin-top:50px 0;
@@ -99,16 +101,16 @@ a {
     text-decoration: none;
 }
 
-.textw {
+.underlinetext {
     text-align: center;
     color: #000000;
 }
 
-.textw:hover {
+.underlinetext:hover {
     text-decoration: underline;
 }
 
-.sellc {
+.mainsell{
     text-align: center;
     width: 320px;
 }
@@ -119,7 +121,7 @@ a {
     cursor: default;
 }
 
-.buya {
+.mainbuy{
     width: 37px;
     margin: 0 85px;
     display: inline-block;
@@ -250,3 +252,146 @@ a {
     background-color: #EBEBEB;
     display: block;
 }
+.conteiner {
+    margin: 0 150px;
+    padding: 30px 0;
+
+}
+.navigation{
+	display:none; 
+	margin-top:10px;
+	margin-bottom:0; 
+	color:#777777;
+	font-size:23px;   
+}
+.poloskimg{
+display:none;
+margin-left:325px; 
+margin-top:5px; 
+}
+.brend1 {
+    color: #000;
+    height: 47px;
+    display:block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+.brend1:hover {
+    border-bottom: 1px solid #DB3535;
+}
+a.brend_url {
+    height: 45px;
+    text-decoration: none;
+}
+
+.brend {
+    margin: 0 137px;
+    border-bottom: 1px solid;
+    width: 1149px;
+    height: 50px;
+    display: inline-block;
+}
+@media screen and (min-width:680px) and (max-width:1000px){
+	.underline{
+		width:100%; 
+	}
+	.navigation{
+	display:inline-block; 
+	position:absolute;
+	top:240px;
+	}
+	.brend1{
+	display:none; 
+	}
+	.brend{
+		width:780px; 
+	}
+	.poloskimg{
+	display:block;
+	text-align:right; 
+	margin-top:0px;
+	position:absolute;
+	right:0; 
+	top:250px;
+	margin-right:3px;  
+	}  
+	.text{ 
+    display:inline-block;
+    position:relative;
+      left:400px;
+	  bottom:73px;
+	  margin:0px;  
+	}
+	.geneva{
+		height:100px; 
+	}
+	.search{
+		margin:0;
+	}
+	.searchtop{
+	position: absolute;
+	left:-460px;
+	
+	}
+	.searchimg{
+		position: absolute;
+		left:-160px;
+	}
+	
+	
+}
+
+@media screen and (max-width:680px){
+	.underline{
+		width:100%; 
+	}
+	.navigation{
+	display:inline-block;
+	position:absolute;
+	top:270px; 
+	}
+	.brend1{
+	display:none; 
+	}
+	.brend{
+		width:480px; 
+	}
+	.poloskimg{
+	display:block;
+	text-align:right; 
+	margin-top:0px;
+	position:absolute;
+	top:276px;	
+	right:5px;
+	}
+	.conteiner{
+     padding-top:9px;
+     margin-left:180px;
+     margin-bottom:50px;    
+	}
+	.onlyorig{
+		padding-top:0;
+		margin-left:60px;  
+	}
+	.fotogeneva{
+		margin:0 0 0 60px;
+
+	}
+	.searchtop{
+		position:absolute;
+		right:-30px;
+	}
+	.searchimg{
+		position:absolute;
+		right:19px;
+	}
+}
+@media screen and (max-width:632px){
+
+.phone{
+	height:52px; 
+}
+
+
+	}
