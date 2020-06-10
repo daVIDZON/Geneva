@@ -14,10 +14,6 @@ a.brend_url {
     height: 50px;
     display: inline-block;
 }
-.brend1:hover {
-    border-bottom: 1px solid #DB3535;
-}
-
 .check {
     background-image: url(./images/check.png);
     width: 40px;
@@ -34,22 +30,13 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
-.item1:hover {
-    background-color: #EBEBEB;
+.main__item:hover {
     display: block;
 }
-
-.underline {
-    border-top: 1px solid;
-    height: 50px;
-}
-
 .official {
     margin: 0;
-    color: #949393;
     margin: 1px 0 5px 15px;
     height: 18px;
     padding-top: 5px;
@@ -57,26 +44,23 @@ a {
 }
 
 .error {
-    color: #949393;
     display: inline-block;
     margin-left: 5px;
 }
 
-.mainofficial {
+.main__official {
     margin: 0;
-    color: #949393;
     margin: 1px 0 5px 2px;
     height: 18px;
     padding-top: 5px;
     display: inline-block;
 }
 
-.maincontainer {
+.main__container {
     margin: 3px 0 0 0;
 }
 
-.minimenu {
-    background-color: #F4F0E7;
+.mini__menu {
     margin: 0;
     height:35px;
 }
@@ -84,6 +68,7 @@ a {
 .mainwatch {
     margin: 0 137px;
     margin-top:40px;
+    margin-bottom:40px;
 }
 
 .watch{
@@ -97,16 +82,15 @@ a {
     width: 310px;
 }
 
-.underwatch {
+.main__underwatch {
     text-decoration: none;
 }
 
-.underlinetext {
+.main__underlinetext {
     text-align: center;
-    color: #000000;
 }
 
-.underlinetext:hover {
+.main__underlinetext:hover {
     text-decoration: underline;
 }
 
@@ -116,7 +100,6 @@ a {
 }
 
 .sell {
-    color: #ED1846;
     font-size: 18px;
     cursor: default;
 }
@@ -139,7 +122,6 @@ a {
 }
 
 .watchItem {
-    width: 310px;
     display: inline-block;
     position: relative;
     box-sizing: border-box;
@@ -164,6 +146,7 @@ a {
 
 .container {
     margin: 0 137px;
+    margin-top: 30px;
 }
 
 .buyab {
@@ -186,7 +169,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 .list {
@@ -209,7 +191,7 @@ a {
     display: block;
 }
 
-.item1:hover > ul.sub-list {
+.main__item:hover > ul.sub-list {
     display: block;
 }
 
@@ -219,10 +201,8 @@ a {
     position: absolute;
     top: 51px;
     left: 0;
-    background-color: white;
     text-align: left;
     padding: 0;
-    border: 1px solid #000;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
     width: 165px;
     height: 210px;
@@ -241,7 +221,7 @@ a {
     margin-left: 10px;
 }
 
-.item1 {
+.main__item {
     margin-left: 10px;
     margin-right: 15px;
     font-size: 17px;
@@ -261,7 +241,6 @@ a {
 	display:none; 
 	margin-top:10px;
 	margin-bottom:0; 
-	color:#777777;
 	font-size:23px;   
 }
 .poloskimg{
@@ -270,15 +249,11 @@ margin-left:325px;
 margin-top:5px; 
 }
 .brend1 {
-    color: #000;
     height: 47px;
     display:block;
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 22px;
-}
-.brend1:hover {
-    border-bottom: 1px solid #DB3535;
 }
 a.brend_url {
     height: 45px;
