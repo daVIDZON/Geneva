@@ -103,18 +103,12 @@
 
 }
 
-.facebook {
-    background-image: url(images/facebook.png);
+.facebok{
     width: 17px;
     height: 17px;
-    display: inline-block;
     margin-left: 4px;
+    fill: red($color: #000000);
 }
-
-.facebook:hover {
-    background-image: url(images/facebook1.png);
-}
-
 .google {
     background-image: url(images/google.png);
     width: 17px;
